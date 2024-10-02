@@ -1,0 +1,113 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FAFAFA;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow: hidden;
+
+  --color-primary-dark-blue: #251659;
+  --color-primary-blue: #251659;
+  --color-primary-purple: #2D0273;
+  --color-secondary-dark-gray: #646464;
+  --color-secondary-medium-gray: #C7C7C7;
+  --color-secondary-medium-gray-2: #909090;
+  --color-secondary-light-gray: #F6F7FA;
+  --color-secondary-light-purple: #F1EEFB;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #251659;
+}
+
+h1 {
+  font-size: 1.8vw;
+  line-height: 1.1;
+  color: #251659;
+}
+
+h3 {
+  margin: 0vw;
+  font-size: 1.2vw;
+  color: #251659;
+}
+
+h4 {
+  margin: 0vw;
+  font-size: 1vw;
+  color: #251659;
+}
+
+p {
+  margin: 0;
+  font-size: 1vw;
+  color: #251659;
+}
+
+button {
+  border-radius: 8px;
+  border: 0px solid transparent;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  outline: 0px solid transparent;
+}
+
+button:hover {
+  border-color: transparent;
+}
+
+button:focus, a:focus {
+  outline: 0px solid transparent; 
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 0px solid transparent; 
+}
+
+
+button:focus, a:focus {
+  border: 0px solid transparent;
+}
+
+
+@media (prefers-color-scheme: light) {
+
+}
+
+/* Shared Scrollbar Styles */
+.custom-scrollbar {
+  scrollbar-width: 0.3vw;
+  scrollbar-color: #C7C7C7 transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #C7C7C7;
+  border-radius: 0.5vw;
+}

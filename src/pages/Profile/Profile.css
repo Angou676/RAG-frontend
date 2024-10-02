@@ -1,0 +1,245 @@
+.profile-page-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F7FA;
+    overflow-y: auto;
+}
+
+.top-navigation-bar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.top-profile-button {
+    width: 3vw;
+    height: 3vw;
+    flex-shrink: 0;
+    border-radius: 0.35vw;
+    background: #F6F7FA;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.profile-page-body-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 82%;
+    /* min-height: 100vh; */
+    box-sizing: border-box;
+    overflow-y: auto;
+    gap: 1vw;
+}
+
+.profile-page-side-menu {
+    position: absolute;
+    left: 0;
+    display: flex;
+    width: 18%;
+    height: 100vh;
+    padding: 1.5vw 1vw 1.5vw 1vw;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    border-radius: 0px var(--font-size-lg, 20px) var(--font-size-lg, 20px) 0px;
+    background: #FFF;
+    box-shadow: 0px 0px 2vw 0px rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.company-logo {
+    background: #F6F7FA;
+    border-radius: 0.3vw;
+    width: 8vw;
+    height: 3.5vw;
+}
+
+.toggle-button {
+    position: relative;
+    border-radius: 0.7vw;
+    width: 100%;
+    height: 3.25vw;
+    font-size: 1vw;
+    font-weight: 700;
+    color: var(--color-secondary-dark-gray);
+    background-color: transparent;
+    margin-top: 3vw;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+.toggle-button button {
+    border: none;
+    border-radius: 0.7vw;
+    cursor: pointer;
+    font-size: 1vw;
+    width: 100%;
+    height: 3.25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-started;
+    align-items: center;
+    padding: 2vw 0vw 2vw 0vw;
+}
+
+.return-home-button {
+    position: absolute;
+    bottom: 2vw;
+    left: 1vw;
+    width: 16vw;
+    height: 3.25vw;
+}
+
+.return-home-button button {
+    padding-left: 1vw;
+    width: 100%;
+    height: 3.25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-started;
+    align-items: center;
+    background-color: var(--color-secondary-light-gray);
+    color: var(--color-secondary-dark-gray);
+    border: none;
+    border-radius: 0.7vw;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.return-home-button button:hover {
+    background-color: var(--color-primary-dark-blue);
+    color: white;
+}
+
+.toggle-button:hover ,
+.profile-button:hover {
+    background-color: var(--color-secondary-light-gray);
+    cursor: pointer;
+}
+
+.profile-button {
+    position: relative;
+    border-radius: 0.7vw;
+    width: 100%;
+    height: 3.25vw;
+    font-size: 1vw;
+    font-weight: 700;
+    color: var(--color-secondary-dark-gray);
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5vw;
+    padding-left: 1vw;
+
+}
+
+.profile-button button {
+    border: none;
+    border-radius: 0.7vw;
+    cursor: pointer;
+    font-size: 1vw;
+    width: 100%;
+    height: 3.25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vw 0vw 2vw 0vw;
+}
+
+.profile-button svg,
+.toggle-button svg,
+.return-home-button svg {
+    width: 1.2vw;
+    height: 1.2vw;
+    border: none;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.dropdown-options svg {
+    width: 1vw;
+    height: 1vw;
+    border: none;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.dropdown-options {
+    width: 91%;
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0 transparent;
+    border-radius: 0.7vw;
+    z-index: 2;
+    background-color: var(--color-secondary-light-gray);
+    padding: 0.5vw 0.7vw 0.5vw 0.7vw;
+    gap: 0.2vw;
+    margin-top: 0.2vw;
+}
+
+.dropdown-options button {
+    width: 100%;
+    height: 3.25vw;
+    padding: 1vw 1vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1vw;
+    color: var(--color-secondary-dark-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropdown-options button:hover {
+    background-color: var(--color-primary-blue);
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-options button.selected {
+    background-color: var(--color-primary-dark-blue);
+    color: white;
+}
+
+.another-action-button:hover {
+    background-color: #e0e0e0;
+}
+
+.selected {
+    background-color: var(--color-secondary-light-gray);
+    color: var(--color-primary-dark-blue);
+}

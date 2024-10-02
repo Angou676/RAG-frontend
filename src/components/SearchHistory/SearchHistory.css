@@ -1,0 +1,53 @@
+.search-history-container {
+    width: 4.5vw;
+    height: 4.5vw;
+    flex-shrink: 0;
+    border-radius: 0.5vw;
+    background: rgba(0, 0, 0, 0.10);
+    position: relative;
+    top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 1.25vw;
+}
+
+button {
+    width: 4.5vw;
+    height: 4.5vw;
+}
+
+.search-history {
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 0.5vw;
+    border: none;
+    background: white;
+    color: var(--color-primary-dark-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.05vw;
+    padding-right: 0.05vw;
+    font-size: 0.8vw;
+}
+
+
+.icon {
+    width: 2.3vw;
+    height: 2.3vw;
+    margin-bottom: 0.1vw; 
+}
+
+/* .search-history-text {
+    text-align: center; 
+    margin: 0;
+    padding: 0; 
+    color: var(--color-primary-dark-blue);
+    font-size: 0.8vw;
+    white-space: nowrap;
+} */
+

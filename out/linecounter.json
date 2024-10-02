@@ -1,0 +1,563 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/emilyhyf/RAG-frontend",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2024-09-25 07:11:47",
+            "filesum": 83,
+            "codesum": 14693,
+            "commentsum": 355,
+            "blanksum": 610,
+            "statistics": {
+                ".json": {
+                    "code": 10933,
+                    "comment": 3,
+                    "blank": 87
+                },
+                ".html": {
+                    "code": 14,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 1919,
+                    "comment": 95,
+                    "blank": 253
+                },
+                ".tsx": {
+                    "code": 1643,
+                    "comment": 214,
+                    "blank": 244
+                },
+                ".svg": {
+                    "code": 56,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ts": {
+                    "code": 27,
+                    "comment": 1,
+                    "blank": 5
+                },
+                ".js": {
+                    "code": 50,
+                    "comment": 2,
+                    "blank": 8
+                },
+                "": {
+                    "code": 17,
+                    "comment": 31,
+                    "blank": 3
+                },
+                ".md": {
+                    "code": 34,
+                    "comment": 9,
+                    "blank": 10
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 31,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "amplify/cli.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "amplify/team-provider-info.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "declarations.d.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "eslint.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 80,
+                    "code": 10739,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 10,
+                    "code": 34,
+                    "comment": 9,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src/amplifyconfiguration.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 45,
+                    "filename": "src/App.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 37,
+                    "comment": 2,
+                    "filename": "src/App.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/Cross.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/assets/Logo.svg"
+                },
+                {
+                    "filename": "src/assets/Preview.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/Arrow.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 1,
+                    "filename": "src/assets/Profile/GoBackArrow.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/Grid.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/List.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/PDFIcon.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/ProfileIcon.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/SearchIcon.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/ThreeDots.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/ToggleIcon.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/Upload.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/assets/Profile/UploadIconSmall.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src/assets/react.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/assets/SearchResult/AnswerIcon.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src/assets/SearchResult/CancelButton.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/SearchResult/DocumentsIcon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/assets/SearchResult/SourceIcon.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "src/assets/SearchResult/SubmitButton.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/assets/SearchResult/ThumbsDown.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/assets/SearchResult/ThumbsUp.tsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 2,
+                    "filename": "src/aws-exports.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "src/components/DocumentUpload/DocumentUpload.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 69,
+                    "comment": 7,
+                    "filename": "src/components/DocumentUpload/DocumentUpload.tsx"
+                },
+                {
+                    "blank": 26,
+                    "code": 207,
+                    "comment": 1,
+                    "filename": "src/components/FileManager/FileManager.css"
+                },
+                {
+                    "blank": 18,
+                    "code": 131,
+                    "comment": 6,
+                    "filename": "src/components/FileManager/FileManager.tsx"
+                },
+                {
+                    "blank": 30,
+                    "code": 235,
+                    "comment": 6,
+                    "filename": "src/components/FileSearch/FileSearch.css"
+                },
+                {
+                    "blank": 25,
+                    "code": 182,
+                    "comment": 9,
+                    "filename": "src/components/FileSearch/FileSearch.tsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 8,
+                    "filename": "src/components/HistoryButton/HistoryButton.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "src/components/HistoryButton/HistoryButton.tsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 54,
+                    "comment": 2,
+                    "filename": "src/components/LookPanel/LookPanel.css"
+                },
+                {
+                    "blank": 16,
+                    "code": 95,
+                    "comment": 4,
+                    "filename": "src/components/LookPanel/LookPanel.tsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 40,
+                    "comment": 8,
+                    "filename": "src/components/ProfileButton/ProfileButton.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src/components/ProfileButton/ProfileButton.tsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 70,
+                    "comment": 1,
+                    "filename": "src/components/ScrollableSection/ScrollableSection.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 86,
+                    "comment": 5,
+                    "filename": "src/components/ScrollableSection/ScrollableSection.tsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "src/components/SearchForm/SearchForm.css"
+                },
+                {
+                    "blank": 27,
+                    "code": 115,
+                    "comment": 56,
+                    "filename": "src/components/SearchForm/SearchForm.tsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 39,
+                    "comment": 8,
+                    "filename": "src/components/SearchHistory/SearchHistory.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "src/components/SearchHistory/SearchHistory.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "src/components/SideMenu/SideMenu.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 2,
+                    "filename": "src/components/SideMenu/SideMenu.tsx"
+                },
+                {
+                    "blank": 23,
+                    "code": 146,
+                    "comment": 7,
+                    "filename": "src/components/SourceButtonGroup/SourceButtonGroup.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 105,
+                    "comment": 1,
+                    "filename": "src/components/SourceButtonGroup/SourceButtonGroup.tsx"
+                },
+                {
+                    "blank": 14,
+                    "code": 128,
+                    "comment": 1,
+                    "filename": "src/components/SourcePanel/SourcePanel.css"
+                },
+                {
+                    "blank": 13,
+                    "code": 61,
+                    "comment": 24,
+                    "filename": "src/components/SourcePanel/SourcePanel.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/components/Spinner/Spinner.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/components/Spinner/Spinner.tsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src/components/SubmitButton/SubmitButton.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "src/components/SubmitButton/SubmitButton.tsx"
+                },
+                {
+                    "blank": 18,
+                    "code": 125,
+                    "comment": 1,
+                    "filename": "src/components/UploadPopup/UploadPopup.css"
+                },
+                {
+                    "blank": 20,
+                    "code": 134,
+                    "comment": 2,
+                    "filename": "src/components/UploadPopup/UploadPopup.tsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/config.ts"
+                },
+                {
+                    "blank": 24,
+                    "code": 87,
+                    "comment": 1,
+                    "filename": "src/index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 1,
+                    "filename": "src/main.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/pages/Loading/Loading.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/pages/Loading/Loading.tsx"
+                },
+                {
+                    "blank": 22,
+                    "code": 222,
+                    "comment": 1,
+                    "filename": "src/pages/Profile/Profile.css"
+                },
+                {
+                    "blank": 21,
+                    "code": 52,
+                    "comment": 72,
+                    "filename": "src/pages/Profile/Profile.tsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "src/pages/Search/Search.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src/pages/Search/Search.tsx"
+                },
+                {
+                    "blank": 34,
+                    "code": 238,
+                    "comment": 5,
+                    "filename": "src/pages/SearchResult/SearchResult.css"
+                },
+                {
+                    "blank": 29,
+                    "code": 196,
+                    "comment": 22,
+                    "filename": "src/pages/SearchResult/SearchResult.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src/UserLogin.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "src/vite-env.d.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 3,
+                    "filename": "tsconfig.app.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "tsconfig.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "tsconfig.node.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "vite.config.ts"
+                }
+            ]
+        }
+    ]
+}

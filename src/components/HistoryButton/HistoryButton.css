@@ -1,0 +1,53 @@
+.history-container {
+    width: 4.5vw;
+    height: 4.5vw;
+    flex-shrink: 0;
+    border-radius: 0.5vw;
+    background: rgba(0, 0, 0, 0.10);
+    position: relative;
+    top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button {
+    width: 4.5vw;
+    height: 4.5vw;
+}
+
+.history-second {
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 0.5vw;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.05vw;
+    padding-right: 0.05vw;
+    font-size: 0.8vw;
+    gap: 0.2vw;
+
+}
+
+.icon {
+    width: 2.3vw;
+    height: 2.3vw;
+    margin-bottom: 0.1vw; 
+}
+
+/* .history-text {
+    text-align: center; 
+    margin: 0;
+    padding: 0; 
+    color: var(--color-primary-dark-blue);
+    font-size: 0.8vw;
+    white-space: nowrap;
+} */

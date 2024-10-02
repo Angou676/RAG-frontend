@@ -1,0 +1,123 @@
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+
+.form-container form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1vw; /* Adds spacing between the dropdown and input */
+  position: relative;
+}
+
+select {
+  height: 20vw;
+}
+
+.language-dropdown {
+  width: 20%;
+  font-size: 1.25vw;
+  border: 0.1vw solid var(--color-secondary-light-gray);
+  border-radius: 0.7vw;
+  box-shadow: 0px 0px 0.5vw rgba(0, 0, 0, 0.1);
+  padding: 1.5vw;
+  height: auto;
+  border: none;
+}
+
+.search-input {
+  flex-grow: 1; /* Ensures input takes up the remaining space */
+  border-radius: 0.7vw;
+  background: white;
+  box-shadow: 0px 0px 0.5vw rgba(0, 0, 0, 0.1);
+  padding: 1.5vw 4vw 1.5vw 4vw;
+  font-size: 1.25vw;
+  border: none;
+  width: 80%;
+}
+
+.submit-button {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 3vw;
+  border: none;
+}
+
+.file-attach-button {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 3vw;
+  border: none;
+  margin-left: 0.5vw;
+}
+
+.spinner-custom {
+  margin-right: 1.5vw;
+}
+
+.error {
+  color: red;
+  font-size: 0.8vw;
+  text-align: end;
+}
+
+.loading {
+  margin-left: 1vw;
+}
+
+.example-text {
+  margin-top: 2vh;
+  color: #251659;
+}
+
+.file-attach-button .tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.file-attach-button .tooltip .tooltip-text {
+  visibility: hidden;
+  width: max-content;
+  background-color: grey;
+  color: #fff;
+  font-size: 0.8vw;
+  text-align: center;
+  border-radius: 0.3vw;
+  padding: 0.1vw 0.8vw;
+  position: absolute;
+  z-index: 1;
+  margin-left: -80px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.file-attach-button .tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

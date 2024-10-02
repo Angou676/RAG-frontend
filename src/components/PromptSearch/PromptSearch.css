@@ -1,0 +1,21 @@
+.prompt-box{
+    height: 10vh;
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 1vw;
+}
+
+.prompt-box button{
+    color: #251659;
+    width: 100%;
+    height: 6vh;
+    font-size: 1vw;
+    border-radius: 0.7vw;
+}
+
+.error-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

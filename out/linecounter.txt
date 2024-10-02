@@ -1,0 +1,108 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2024-09-25 07:11:47
+count workspace : /Users/emilyhyf/RAG-frontend
+total files : 83
+total code lines : 14693
+total comment lines : 355
+total blank lines : 610
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .json|          10933|              3|             87|     74|
+   |          .html|             14|              0|              0|  0.095|
+   |           .css|           1919|             95|            253|     13|
+   |           .tsx|           1643|            214|            244|     11|
+   |           .svg|             56|              0|              0|   0.38|
+   |            .ts|             27|              1|              5|   0.18|
+   |            .js|             50|              2|              8|   0.34|
+   |               |             17|             31|              3|   0.12|
+   |            .md|             34|              9|             10|   0.23|
+   -------------------------------------------------------------------------
+.env, code is 3, comment is 0, blank is 1.
+.gitignore, code is 14, comment is 31, blank is 2.
+amplify/cli.json, code is 64, comment is 0, blank is 0.
+amplify/team-provider-info.json, code is 20, comment is 0, blank is 0.
+declarations.d.ts, code is 1, comment is 0, blank is 0.
+eslint.config.js, code is 27, comment is 0, blank is 1.
+index.html, code is 14, comment is 0, blank is 0.
+package-lock.json, code is 10739, comment is 0, blank is 80.
+package.json, code is 45, comment is 0, blank is 0.
+README.md, code is 34, comment is 9, blank is 10.
+src/amplifyconfiguration.json, code is 22, comment is 0, blank is 4.
+src/App.css, code is 0, comment is 45, blank is 0.
+src/App.tsx, code is 37, comment is 2, blank is 4.
+src/assets/Cross.svg, code is 3, comment is 0, blank is 0.
+src/assets/Logo.svg, code is 11, comment is 0, blank is 0.
+src/assets/Preview.png, it is a binary file.
+src/assets/Profile/Arrow.svg, code is 3, comment is 0, blank is 0.
+src/assets/Profile/GoBackArrow.tsx, code is 21, comment is 1, blank is 3.
+src/assets/Profile/Grid.svg, code is 6, comment is 0, blank is 0.
+src/assets/Profile/List.svg, code is 3, comment is 0, blank is 0.
+src/assets/Profile/PDFIcon.svg, code is 4, comment is 0, blank is 0.
+src/assets/Profile/ProfileIcon.tsx, code is 26, comment is 0, blank is 2.
+src/assets/Profile/SearchIcon.tsx, code is 21, comment is 0, blank is 2.
+src/assets/Profile/ThreeDots.svg, code is 5, comment is 0, blank is 0.
+src/assets/Profile/ToggleIcon.tsx, code is 25, comment is 0, blank is 2.
+src/assets/Profile/Upload.svg, code is 3, comment is 0, blank is 0.
+src/assets/Profile/UploadIconSmall.tsx, code is 21, comment is 0, blank is 2.
+src/assets/react.svg, code is 1, comment is 0, blank is 0.
+src/assets/SearchResult/AnswerIcon.svg, code is 4, comment is 0, blank is 0.
+src/assets/SearchResult/CancelButton.tsx, code is 12, comment is 0, blank is 2.
+src/assets/SearchResult/DocumentsIcon.svg, code is 3, comment is 0, blank is 0.
+src/assets/SearchResult/SourceIcon.svg, code is 10, comment is 0, blank is 0.
+src/assets/SearchResult/SubmitButton.tsx, code is 14, comment is 0, blank is 2.
+src/assets/SearchResult/ThumbsDown.tsx, code is 21, comment is 0, blank is 2.
+src/assets/SearchResult/ThumbsUp.tsx, code is 21, comment is 0, blank is 2.
+src/aws-exports.js, code is 23, comment is 2, blank is 7.
+src/components/DocumentUpload/DocumentUpload.css, code is 62, comment is 0, blank is 6.
+src/components/DocumentUpload/DocumentUpload.tsx, code is 69, comment is 7, blank is 12.
+src/components/FileManager/FileManager.css, code is 207, comment is 1, blank is 26.
+src/components/FileManager/FileManager.tsx, code is 131, comment is 6, blank is 18.
+src/components/FileSearch/FileSearch.css, code is 235, comment is 6, blank is 30.
+src/components/FileSearch/FileSearch.tsx, code is 182, comment is 9, blank is 25.
+src/components/HistoryButton/HistoryButton.css, code is 40, comment is 8, blank is 5.
+src/components/HistoryButton/HistoryButton.tsx, code is 33, comment is 0, blank is 2.
+src/components/LookPanel/LookPanel.css, code is 54, comment is 2, blank is 7.
+src/components/LookPanel/LookPanel.tsx, code is 95, comment is 4, blank is 16.
+src/components/ProfileButton/ProfileButton.css, code is 40, comment is 8, blank is 6.
+src/components/ProfileButton/ProfileButton.tsx, code is 36, comment is 0, blank is 2.
+src/components/ScrollableSection/ScrollableSection.css, code is 70, comment is 1, blank is 8.
+src/components/ScrollableSection/ScrollableSection.tsx, code is 86, comment is 5, blank is 7.
+src/components/SearchForm/SearchForm.css, code is 64, comment is 0, blank is 8.
+src/components/SearchForm/SearchForm.tsx, code is 115, comment is 56, blank is 27.
+src/components/SearchHistory/SearchHistory.css, code is 39, comment is 8, blank is 6.
+src/components/SearchHistory/SearchHistory.tsx, code is 27, comment is 0, blank is 2.
+src/components/SideMenu/SideMenu.css, code is 30, comment is 0, blank is 2.
+src/components/SideMenu/SideMenu.tsx, code is 24, comment is 2, blank is 4.
+src/components/SourceButtonGroup/SourceButtonGroup.css, code is 146, comment is 7, blank is 23.
+src/components/SourceButtonGroup/SourceButtonGroup.tsx, code is 105, comment is 1, blank is 12.
+src/components/SourcePanel/SourcePanel.css, code is 128, comment is 1, blank is 14.
+src/components/SourcePanel/SourcePanel.tsx, code is 61, comment is 24, blank is 13.
+src/components/Spinner/Spinner.css, code is 21, comment is 0, blank is 2.
+src/components/Spinner/Spinner.tsx, code is 10, comment is 0, blank is 2.
+src/components/SubmitButton/SubmitButton.css, code is 36, comment is 0, blank is 4.
+src/components/SubmitButton/SubmitButton.tsx, code is 35, comment is 0, blank is 3.
+src/components/UploadPopup/UploadPopup.css, code is 125, comment is 1, blank is 18.
+src/components/UploadPopup/UploadPopup.tsx, code is 134, comment is 2, blank is 20.
+src/config.ts, code is 2, comment is 0, blank is 1.
+src/index.css, code is 87, comment is 1, blank is 24.
+src/main.tsx, code is 9, comment is 1, blank is 1.
+src/pages/Loading/Loading.css, code is 0, comment is 0, blank is 0.
+src/pages/Loading/Loading.tsx, code is 0, comment is 0, blank is 0.
+src/pages/Profile/Profile.css, code is 222, comment is 1, blank is 22.
+src/pages/Profile/Profile.tsx, code is 52, comment is 72, blank is 21.
+src/pages/Search/Search.css, code is 53, comment is 0, blank is 6.
+src/pages/Search/Search.tsx, code is 24, comment is 0, blank is 5.
+src/pages/SearchResult/SearchResult.css, code is 238, comment is 5, blank is 34.
+src/pages/SearchResult/SearchResult.tsx, code is 196, comment is 22, blank is 29.
+src/UserLogin.css, code is 22, comment is 0, blank is 2.
+src/vite-env.d.ts, code is 15, comment is 1, blank is 3.
+tsconfig.app.json, code is 21, comment is 3, blank is 3.
+tsconfig.json, code is 16, comment is 0, blank is 0.
+tsconfig.node.json, code is 6, comment is 0, blank is 0.
+vite.config.ts, code is 9, comment is 0, blank is 1.
+===============================================================================

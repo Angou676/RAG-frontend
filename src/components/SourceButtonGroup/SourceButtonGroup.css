@@ -1,0 +1,176 @@
+.scrollable-button-group-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1vw;
+}
+
+.scrollable-button-group {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    gap: 4vw;
+}
+
+.document-button-container {
+    width: 100%;
+    display: flex;
+    gap: 1vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.document-button-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.document-button-container {
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.document-button-container {
+    -ms-overflow-style: none;
+}
+
+
+.scroll-button {
+    border: none;
+    background-color: var(--color-secondary-light-gray);
+    color: #251659;
+    font-size: 2.25vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+.icon-scroll {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.scroll-button:hover {
+    border: none;
+    background-color: var(--color-primary-dark-blue);
+    color: white;
+}
+
+.scroll-button.left {
+    position: relative;
+    left: 0;
+    z-index: 1;
+}
+
+.scroll-button.right {
+    position: relative;
+    right: 0;
+    z-index: 1;
+}
+
+.document-button {
+    display: flex;
+    width: 10vw;
+    min-height: 6vw;
+    padding: 0.5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+    flex-shrink: 0;
+    color: #251659;
+    border-radius: 0.5vw;
+    border: 0vw solid transparent;
+    background: #F7F7F7;
+    overflow: hidden;
+    text-align: left;
+    box-sizing: border-box;
+    transition: filter 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.document-button strong {
+    font-size: 0.8vw;
+    font-weight: 600;
+    display: -webkit-box;          
+    -webkit-line-clamp: 2;         
+    -webkit-box-orient: vertical;  
+    overflow: hidden;              
+    text-overflow: ellipsis;     
+    
+    /* Fallback for non-WebKit browsers */
+    max-height: 2.4em;           
+    line-height: 1.2em;     
+    white-space: normal;   
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.document-button p {
+    font-size: 0.8vw;
+    color: #646464;
+    display: -webkit-box;          
+    -webkit-line-clamp: 2;         
+    -webkit-box-orient: vertical;  
+    overflow: hidden;              
+    text-overflow: ellipsis;     
+    
+    /* Fallback for non-WebKit browsers */
+    max-height: 2.4em;           
+    line-height: 1.2em;     
+    white-space: normal;   
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.document-button:hover {
+    background-color: #EEE;
+    border-color: transparent;
+}
+
+.document-button.selected {
+    background-color: #251659;
+    color: white;
+}
+
+.document-button.selected p {
+    color: white;
+}
+
+/* Return to default text color when not selected */
+.document-button:not(.selected) p {
+    color: #646464;
+}
+
+/* Ensure hover doesn't interfere with selected state */
+.document-button:hover:not(.selected) {
+    background-color: #EEE;
+}
+
+.document-button-container {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.button-text-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
